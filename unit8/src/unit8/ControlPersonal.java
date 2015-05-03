@@ -108,6 +108,7 @@ public class ControlPersonal {
         Asignatura a2 = new Asignatura("Programación");
         Asignatura a3 = new Asignatura("Sistemas");
         Asignatura a4 = new Asignatura("Lenguaje de Marcas");
+        Asignatura a5 = new Asignatura("Bases de datos");
         
         //-----PROGRAMA-----//
         
