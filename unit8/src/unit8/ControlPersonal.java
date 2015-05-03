@@ -107,6 +107,12 @@ public class ControlPersonal {
         Asignatura a1 = new Asignatura("Entornos");
         Asignatura a2 = new Asignatura("Programación");
         Asignatura a3 = new Asignatura("Sistemas");
+        Asignatura a4 = new Asignatura("Lenguaje de Marcas");
+        
+        //-----PROGRAMA-----//
+        
+        al1.anyadirAsignatura(a4);
+        p2.anyadirAsignatura(a4);
         
     }
 }
