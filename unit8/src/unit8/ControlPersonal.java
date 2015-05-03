@@ -90,4 +90,23 @@ public class ControlPersonal {
             }
         }		
     }
+    
+    /**
+     * Método principal del programa, donde se crearán objetos de las distintas
+     * clases que componen el programa.
+     * @param args --> Argumentos que toma el método main.
+     */
+    public static void main(String[] args){
+    
+        //-----ATRIBUTOS-----//
+        
+        Alumno al1 = new Alumno("Pepín", "222");
+        Alumno al2 = new Alumno("Manolín", "333");
+        Profesor p1 = new Profesor("Pepita", "111");
+        Profesor p2 = new Profesor("Manolita", "444");
+        Asignatura a1 = new Asignatura("Entornos");
+        Asignatura a2 = new Asignatura("Programación");
+        Asignatura a3 = new Asignatura("Sistemas");
+        
+    }
 }
