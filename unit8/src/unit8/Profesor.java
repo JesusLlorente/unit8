@@ -7,6 +7,10 @@ package unit8;
  */
 public class Profesor extends Persona{
     
+    //-----ATRIBUTOS-----//
+
+    private float salario;    
+
     //-----CONSTRUCTORES-----//
     
     /**
@@ -17,6 +21,18 @@ public class Profesor extends Persona{
      */
     public Profesor(String nombre, String dni){
         super(nombre, dni);
+    }
+    
+    //-----GETTERS-----//
+
+    public float getSalario() {
+        return salario;
+    }
+    
+    //-----SETTERS-----//
+
+    public void setSalario(float salario) {
+        this.salario = salario;
     }
     
     //-----METODOS-----//
