@@ -105,8 +105,8 @@ public abstract class Persona {
                 if(asignaturas.get(j).getNombre().compareTo(asignaturas.get(j - 1).getNombre()) < 1){
                     
                     aux = asignaturas.get(j);
-                    asignaturas.add(j, asignaturas.get(j - 1));
-                    asignaturas.add(j - 1, aux);
+                    asignaturas.set(j, asignaturas.get(j - 1));
+                    asignaturas.set(j - 1, aux);
                 }
             }
         }		
@@ -127,8 +127,8 @@ public abstract class Persona {
                 if(asignaturas.get(j).getNota() > asignaturas.get(j - 1).getNota()){
                     
                     aux = asignaturas.get(j);
-                    asignaturas.add(j, asignaturas.get(j - 1));
-                    asignaturas.add(j - 1, aux);
+                    asignaturas.set(j, asignaturas.get(j - 1));
+                    asignaturas.set(j - 1, aux);
                 }
             }
         }		
