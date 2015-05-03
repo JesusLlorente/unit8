@@ -106,7 +106,7 @@ public class ControlPersonal {
         Profesor p2 = new Profesor("Manolita", "444");
         Asignatura a1 = new Asignatura("Entornos");
         Asignatura a2 = new Asignatura("Programación");
-        Asignatura a3 = new Asignatura("Sistemas");
+        Asignatura a3 = new Asignatura("Bases de datos");
         
     }
 }
